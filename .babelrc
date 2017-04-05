@@ -1,0 +1,15 @@
+{
+  "presets": [
+    ["env", {
+      "targets": {
+        "node": "6.10"
+      },
+      "modules": "commonjs",
+      "loose": true
+    }]
+  ],
+  "plugins": [
+    ["syntax-object-rest-spread", { "useBuiltIns": true }],
+    ["transform-object-rest-spread", { "useBuiltIns": true }]
+  ]
+}

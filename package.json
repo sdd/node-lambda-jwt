@@ -1,0 +1,31 @@
+{
+  "name": "lambda-jwt",
+  "version": "0.1.0",
+  "description": "JWT Custom Auth for AWS Lambda",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src/ --out-dir dist/",
+    "test": "ava",
+    "test:watch": "ava -w"
+  },
+  "ava": {
+    "require": [
+      "babel-register"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sdd/node-aws-lambda.git"
+  },
+  "keywords": [
+    "lambda",
+    "jwt",
+    "aws"
+  ],
+  "author": "Scott Donnelly",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sdd/node-aws-lambda/issues"
+  },
+  "homepage": "https://github.com/sdd/node-aws-lambda#readme"
+}
